@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "learning css with net ninja",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css",
+    "start": "nodemon public"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "tailwindcss": "^1.8.10"
+  }
+}
